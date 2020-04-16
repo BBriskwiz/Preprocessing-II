@@ -1,1 +1,29 @@
 // Navigation Styles here
+
+  nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+  background-color: blue;
+  
+  
+  @media(max-width:500px){
+max-width:350px;
+background-color: red;
+flex-direction: column;
+max-height: 200px;
+justify-content: center;
+align-items: center;
+  }
+    a {
+        padding: 8px;
+        background-color: #dddddd;
+        margin-top: 10px;
+        text-decoration: none; 
+        font-size: 1.2rem;
+        color: black;
+        @media(max-width:500px){
+         width: 100px;   
+        }
+  }
+}  
